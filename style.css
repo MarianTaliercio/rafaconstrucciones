@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Open Sans';
+height: 100%;
+}
+
+
+
+/*Sección Hero*/
+
+header{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-fixed {
+    background-color: grey;
+    color: white;
+    font-weight:300;
+    font-size: 0.9rem;
+    height: 1.8rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.caja1_header {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.img_logo {
+    width: 90%;
+}
+
+.caja1_cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*gap: 20px;*/
+}
+
+.caja1_cta h2 {
+    font-weight: 400;
+}
+
+.boton_header {
+    font-size: 18px;
+    background-color:#313E48;
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor:pointer;
+    width: 180px;
+}
+
+.caja2_header{
+    padding-left: 50px;
+    width: 60%;
+}
+
+.img_header {
+    height: 100vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*Sección Hero*/
+
+
+/*Sección ABOUT US*/
+
+.about-us_section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us_div-1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-us_div-1 h3 {
+    font-size: 3rem;
+}
+
+.img_about-us {
+    max-width: 600px;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 13px 6px rgba(49,62,72,0.29);
+}
+
+.img_about-us:hover{ 
+    transform: scale(105%);
+    transition-duration: 0.3s;
+}
+
+.about-us_div-2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-right: 50px;
+}
+
+.about-us_div-2 p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.btn_about-us {
+    font-size: 18px;
+    background-color:#313E48;
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor:pointer;
+    width: 180px;
+}
+
+/* Termina Sección Quienes Somos */
+
+
+
+/* Sección Nuestros Trabajos */
+
+.work_section {
+    background: linear-gradient(90deg, rgba(49,62,72,1) 0%, rgba(57,82,102,1) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.h3-title_work-section {
+display: flex;
+justify-content: center;
+}
+
+.title1_work-section {
+    color: white;
+}
+
+.title2_work-section {
+    color: #A93339;
+}
+
+.title1_work-section, .title2_work-section {
+    align-items: center;
+    padding-top: 20px;
+    font-weight: 600px;
+    font-size: 3rem;
+}
+
+.div_work_section {
+    display:flex;
+    justify-content: space-around;
+    max-width: 2000px;
+}
+
+.div_work_section h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.sub1-div_work-section {
+    background-color: white;
+    width: 70vh;
+    padding: 20px 50px;
+    border-radius: 1rem;
+    gap: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub2-div_work-section {
+    background-color: white;
+    width: 70vh;
+    padding: 20px 50px;
+    border-radius: 1rem;
+    gap: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1-work-section, .img2-work-section {
+    width: 420px;
+    height: 350px;
+    border-radius: 1rem;
+}
+
+.img1-work-section, .img2-work-section:hover {
+    cursor: pointer;
+}
+
+/* Termina Sección Nuestros Trabajos */
+
+
+
+/* Sección Nuestro Equipo */
+
+.team_section {
+    height: 100vh;
+    /*background-color: yellowgreen;*/
+}
+
+.team_section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_our-team{
+    max-width: 60%;
+}
+
+.img_team {
+    width: 600px;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 13px 6px rgba(49,62,72,0.29);
+}
+
+.img_team:hover{ 
+    transform: scale(105%);
+    transition-duration: 0.3s;
+}
+
+.text_our-team {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text_our-team h2 {
+    text-align: center;
+    font-size: 3rem
+}
+
+.text_our-team p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* Termina Sección Nuestro Equipo */
+
+
+
+/*Formulario de Contacto */
+
+.formulario_section {
+    height: 60vh;
+    /*background-color: #313E48;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-form {
+    /*background-color: red;*/
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form h3 {
+    font-weight:bold;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.contact-form_left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#input-form {
+    padding: 5px;
+    border: 1px solid #EFEFEF;
+    background-color: #EFEFEF;
+    width: 70%;
+}
+
+.enviar_form {
+    color: white;
+    background-color: #313E48;
+    border: 1px solid #313E48;
+    color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 40px;
+    margin-top: 10px;
+	letter-spacing: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.enviar_form:active {
+	transform: scale(0.95);
+}
+
+.contact-form_right {
+    background: linear-gradient(90deg, rgba(49,62,72,1) 0%, rgba(57,82,102,1) 100%);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form_right h3 {
+    width: 90%;
+    text-align: center;
+}
+
+.contact-form_right p {
+    width: 70%;
+}
+
+.contact-form_right button {
+    margin-top: 50px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 40px;
+	letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/*Termina el Formulario de Contacto */
+
+.section_footer {
+    height: 100px;
+    width: 100%;
+    background-color: #A93339;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: black;
+}
+
+.footer_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 15px;
+}
+
+.footer_img-wpp, .footer_img-ig {
+    height: 40px;
+    width: 40px;
+}
